@@ -21,21 +21,27 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
-  color: blue;
+  color:darkgreen;
 }
 
 .main {
   font-family: 'Josefin Sans', sans-serif;
-  background: hotpink;
+  background: darkseagreen;
   padding: 50px;
   border-radius: 4px;
   display: flex;
-  margin: 200px;
+  margin: 10%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
   margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.main h1 {
+  font-size: 40px;
+  font-weight: 700;
 }
 
 a {
@@ -45,6 +51,7 @@ a {
   align-content: center;
   text-decoration: unset;
   font-size: 20px;
+  font-size: 80px;
   margin: 5px 0;
 }
 
@@ -53,14 +60,23 @@ a:hover {
 }
 
 .button {
-  background-color: blue;
+  background-color:forestgreen;
   padding-left: 50px;
   padding-right: 50px;
   padding: 50px;
-  margin: 200px;
+  margin: 10%;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-Link {
-  padding: 20px;
+.problem { 
+  background-color: darkseagreen;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 50px;
+  padding-bottom: 300px;
+  margin: 10%;
+  margin-top: 0px;
+  margin-bottom: 500px;
+  color:white;
 }
