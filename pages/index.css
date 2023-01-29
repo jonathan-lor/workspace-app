@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-  color: #3f51b5;
+  color: lightblue;
 }
 
 .button {
@@ -74,9 +74,30 @@ a:hover {
   padding-left: 50px;
   padding-right: 50px;
   padding: 50px;
-  padding-bottom: 300px;
+  /* padding-bottom: 0px; */
   margin: 10%;
   margin-top: 0px;
-  margin-bottom: 500px;
+  margin-bottom: 50%;
   color:white;
+}
+
+#title {
+  font-size: 60px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: forestgreen;
+}
+#team {
+  background-color: forestgreen;
 }
