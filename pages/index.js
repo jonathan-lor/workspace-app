@@ -1,17 +1,31 @@
 import Link from 'next/link'
+import Problem from './problem'
 
-export default function IndexPage() {
-  // we want to be able to input the data here at index and have it be passed to boxes
-  // we need to be able to pass user input as a prop into a component that can generate array of position and key values
-  // can we use a form to do this?
-  //state goes top down in react
-  // pass state from "child" component form to index.js parent
-  // then pass state from index.js to boxes.js
+const IndexPage = () => {
   return (
-    <div className="main">
-      <h1>Workspace</h1>
-      <h2>Tamuhack 2023 CBRE Challenge</h2>
-      <Link href="/boxes">Floor Visualization</Link>
+    <div>
+      <div className="main">
+        <h1 id="title">Workspace</h1>
+        <h2>Tamuhack 2023 CBRE Challenge</h2>
+      </div>
+      
+      <div class="button">
+        <h1>
+        <Link href="/boxes">&gt;Floor Visualization</Link>
+        </h1>
+      </div>
+
+      <div class="problem">
+        <h1>
+          Our Problem:
+        </h1>
+        <h2>
+          We want to fill a multi-floor office to the best capacity while also respecting the collaboration preferences of all teams.
+        </h2>
+        <Problem></Problem>
+      </div>
     </div>
-  )
+  );
 }
+
+export default IndexPage;

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -15,19 +21,27 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
-  color: blue;
+  color:darkgreen;
 }
 
 .main {
-  background: hotpink;
+  font-family: 'Josefin Sans', sans-serif;
+  background: darkseagreen;
   padding: 50px;
   border-radius: 4px;
   display: flex;
-  margin: 200px;
+  margin: 10%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.main h1 {
+  font-size: 40px;
+  font-weight: 700;
 }
 
 a {
@@ -37,9 +51,53 @@ a {
   align-content: center;
   text-decoration: unset;
   font-size: 20px;
+  font-size: 80px;
   margin: 5px 0;
 }
 
 a:hover {
-  color: #3f51b5;
+  color: lightblue;
+}
+
+.button {
+  background-color:forestgreen;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 50px;
+  margin: 10%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.problem { 
+  background-color: darkseagreen;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 50px;
+  /* padding-bottom: 0px; */
+  margin: 10%;
+  margin-top: 0px;
+  margin-bottom: 50%;
+  color:white;
+}
+
+#title {
+  font-size: 60px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: forestgreen;
+}
+#team {
+  background-color: forestgreen;
 }
