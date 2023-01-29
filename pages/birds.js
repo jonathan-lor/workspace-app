@@ -6,7 +6,9 @@ import Bird from '../components/Bird'
 export default function BirdsPage() {
   const birds = useMemo(
     () =>
-      new Array(10).fill().map((_, index) => {
+      new Array(2).fill().map((_, index) => {
+        // randomizing position of each bird
+        // can modify these for box values
         const x =
           (15 + Math.random() * 30) * (Math.round(Math.random()) ? -1 : 1)
         const y = -10 + Math.random() * 20
@@ -22,6 +24,7 @@ export default function BirdsPage() {
             ? 0.25 + Math.random()
             : 1 + Math.random() - 0.5
 
+        //returns an object with the bird's position, rotation, speed, factor, and url
         return {
           key: index,
           position: [x, y, z],
