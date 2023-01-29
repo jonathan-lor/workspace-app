@@ -15,7 +15,7 @@ export default function Box(props) {
       args={[1, 1, 1]}
       {...props}
       ref={mesh}
-      scale={active ? [7, 5, 7] : [5, 5, 5]}
+      scale={active ? [12, 5, 12] : [10, 5, 10]}
       onClick={() => setActive(!active)}
       onPointerOver={() => setHover(true)}
       onPointerOut={() => setHover(false)}

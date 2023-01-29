@@ -12,6 +12,7 @@ const IndexPage = () => {
       <div class="button">
         <h1>
         <Link href="/boxes">&gt;Floor Visualization</Link>
+        <Link href="/solution">&gt;Solution</Link>
         </h1>
       </div>
 

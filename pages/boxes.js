@@ -19,7 +19,7 @@ export default function BoxesPage() {
   //let xPos = 2.5; 
   for(let i = 0; i < boxes.length; i++) {
     //console.log(boxes[i].position);
-    boxes[i].position[1] = 5 * i + 2.5;
+    boxes[i].position[1] = 10 * i + 2.5;
   }
 
   return (
@@ -29,7 +29,7 @@ export default function BoxesPage() {
       <h1>Click on a floor for details</h1>
       <Link href='/'>Back to Inputs</Link>
       </div>
-      <Canvas camera={{ position: [10, 7.5, 35] }}>
+      <Canvas camera={{ position: [70, 35, 70] }}>
         <ambientLight intensity={2} />
         <pointLight position={[40, 40, 40]} />
         {/* <Box position={[0, 2.5, 0]} />
